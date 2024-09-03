@@ -24,6 +24,7 @@ The application allows users to scrape websites, extract content, and parse it b
 - **Content Cleaning:** Processes and cleans the scraped HTML content using BeautifulSoup.
 - **Natural Language Parsing:** Uses Langchain with Ollama LLM to parse the content based on user input.
 - **Streamlit Interface:** Provides a user-friendly interface for entering URLs, viewing content, and running parsing operations.
+- **CAPTCHA Handling:** Utilizes Bright Data service to help unblock CAPTCHAs. Bright Data offers a [free trial](https://brightdata.com/).
 
 ## Installation
 
