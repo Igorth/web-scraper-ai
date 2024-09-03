@@ -28,7 +28,7 @@ def scrape_website(website):
         return html
 
 
-def extract_boy_content(html_content):
+def extract_body_content(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
     body_content = soup.body
     if body_content:
